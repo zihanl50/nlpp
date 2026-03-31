@@ -8,19 +8,10 @@
 - 主要库：pandas, numpy, jieba, matplotlib, seaborn, wordcloud
 
 安装命令：
-```bash
 pip install pandas numpy jieba matplotlib seaborn wordcloud
 
-```markdown
 ## 数据来源
 阿里天池公开数据集「淘宝商品描述数据集」中的 `content_tag_dataset.txt`，抽取前 10,000 条商品标题进行分析。、
-
-## 运行步骤
-1. 将 `content_tag_dataset.txt` 放入 `data/raw/`
-2. 启动 Jupyter Notebook，依次运行：
-   - `01_Data_Cleaning_EDA.ipynb`（数据清洗与基础统计）
-   - `02_Ecommerce_Text_Characteristics.ipynb`（文本特性分析）
-3. 所有图表自动保存至 `reports/` 文件夹。
 
 ## 主要结果
 - **标题长度**：平均约 20 字，符合短文本特征。
